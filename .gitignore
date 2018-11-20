@@ -1,2 +1,3 @@
 *.pdf
-data/*
+**/__pycache__/
+**.sqlite
