@@ -16,7 +16,7 @@ def fetch_profiles(filename):
     f           = open(filename, 'r')
     profiles    = f.read().splitlines()
     f.close()
-    return(profiles)
+    return(list(set(profiles)))
 
 """ Get a tweet """
 def fetch_tweets(profile, npages = 1):
