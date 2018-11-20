@@ -2,7 +2,7 @@
 ### Generating Trashy Big Data Tweets
 ### ... with LSTM
 <hr>
-#### Prerequisites:
+### Prerequisites:
 
 ```.sh
 sudo apt-get install sqlite3
@@ -10,7 +10,8 @@ pip3 install -r requirements.txt
 ```
 
 <hr>
-#### Useful sqlite3 cmds:
+### Useful sqlite3 cmds:
+
 ```.sh
 .tables
 select * from tweets limit 10
@@ -18,7 +19,7 @@ drop table tweets
 select count(*) from tweets
 ``` 
 <hr>
-#### Description of directories:
+### Description of directories:
 
 /data:
 /data/setup_sqlitedb.py -> Sets up sqlite3 database in /database dir 
