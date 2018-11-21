@@ -1,3 +1,5 @@
 *.pdf
 **/__pycache__/
 **.sqlite
+**.ipynb
+**.pickle
