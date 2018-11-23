@@ -8,7 +8,7 @@ column_types    = ['INTEGER', 'TEXT', 'TEXT', 'TEXT', 'TEXT', 'TEXT', 'INTEGER',
 
 """ Establish connection to db """
 cnxn    = sqlite3.connect(sqlite_file)
-c       = cnxn.cursor() 
+c       = cnxn.cursor()
 
 """ Setup our createtable query """
 create_query = 'CREATE TABLE {} ('.format(table_name)
@@ -25,4 +25,3 @@ print('Query to be executed: {}'.format(create_query))
 c.execute(create_query)
 cnxn.commit()
 cnxn.close()
-
