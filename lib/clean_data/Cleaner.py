@@ -41,7 +41,7 @@ class CleanData:
         return(re.sub(r' +', ' ', txt))
 
     def _strip_metachar(self, txt):
-        return(re.sub(r"[^a-zA-Z0-9\@\# ]+", '', txt))
+        return(re.sub(r"[^a-zA-Z0-9\@\#\.\, ]+", '', txt))
 
     def _strip_ats(self, txt):
         return(re.sub(r'(\@|\#)\w*', '', txt))
