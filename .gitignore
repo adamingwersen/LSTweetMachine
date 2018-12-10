@@ -1,5 +1,7 @@
 *.pdf
 **/__pycache__/
+**/tb-logs
+**/model
 **.ipynb_checkpoints
 **.sqlite
 **.pickle
